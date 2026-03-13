@@ -58,7 +58,7 @@ YEAR = 2026
 AUTHOR = "Grant Wang"
 VERSION = "MTR 26Q1.6"
 QUICKSTART_URL = "https://jq3ga5bejin.feishu.cn/docx/ELwqdStvqoZO1uxbbwDclKa6n3g?from=from_copylink"
-REPO_URL = "https://jq3ga5bejin.feishu.cn/drive/folder/Fxe9fwNm9l6sE3dbNgtcW7r6nuh?from=from_copylink"
+REPO_URL = "https://github.com/wangziyu1996/dataprocessingtool"
 TEMPLATE_URL = "https://jq3ga5bejin.feishu.cn/drive/folder/LG4EfjU8ulAGikdcyoecGlGFnDb?from=from_copylink"
 
 
