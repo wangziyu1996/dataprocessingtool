@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Routine Inspection Visualization</title>
+    <!-- 加载 ECharts 库 -->
+    {% for dep in js_dependencies %}
+    <script src="{{ dep }}"></script>
+    {% endfor %}
+    
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+            margin: 0;
+            padding: 20px; 
+            background-color: #f7f9fa; 
+        }
+        
+        .main-title { 
+            text-align: center; 
+            font-size: 24px; 
+            font-weight: 600; 
+            margin-bottom: 20px; 
+            color: #333;
+        }
+        
+        .container { 
+            display: flex; 
+            width: 100%; 
+            height: 85vh; 
+            border: 1px solid #e0e0e0; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05); 
+            background-color: #fff; 
+        }
+        
+        .sidebar { 
+            padding: 15px;
+            background-color: #f0f2f5;
+            border-right: 1px solid #e0e0e0;
+            overflow-y: auto;
+        }
+        
+        .sidebar-left { 
+            flex: 1; /* Takes 1 part of the space */
+        }
+        
+        .sidebar-right { 
+            flex: 1.5; /* Takes 1.5 parts of the space */
+        }
+        
+        .main-content { 
+            flex: 7.5; /* Takes 7.5 parts of the space */
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sidebar-title { 
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .filter-item { 
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: #e0e0e0; /* 默认灰色背景 */
+            color: black;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .filter-item:hover { 
+            background-color: #cccccc;
+        }
+        
+        .filter-item.selected { 
+            background-color: #0078d4; 
+            color: white; 
+            font-weight: 500; 
+        }
+        
+        .filter-item.alert-red { 
+            background-color: #d94e5d; 
+            color: white; 
+            border-color: #b8424f; 
+        }
+        
+        .filter-item.alert-yellow { 
+            background-color: #fad22d; 
+            color: #333; 
+            border-color: #e0b800; 
+        }
+        
+        .chart-title { 
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .chart-container { 
+            flex-grow: 1; 
+            border: 2px solid #0078d4; /* Blue border */
+            border-radius: 4px;
+            padding: 10px;
+            position: relative; /* For pyecharts positioning */
+        }
+        
+        /* Custom scrollbar for sidebars */
+        .sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+        .sidebar::-webkit-scrollbar-track {
+            background: #f0f2f5;
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 4px;
+        }
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: #a8a8a8;
+        }
+        
+        /* 新增：文本框样式 */
+        .info-box {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 100;
+            background-color: rgba(214, 226, 245, 0.9);
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 8px;
+            font-family: 'PT Sans', sans-serif; /* 修改字体为PT Sans */
+            font-size: 12px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="main-title">Interactive Routine Inspection Report</h1>
+    <div class="container">
+        <!-- 左侧边栏：测试员 -->
+        <div id="tester-sidebar" class="sidebar sidebar-left">
+            <h2 class="sidebar-title">Tester</h2>
+            <!-- 测试员项目将在此动态插入 -->
+            {% for tester_name, kpi_charts in chart_data.items() %}
+            <div class="filter-item" onclick="selectTester('{{ tester_name }}')">
+                {{ tester_name }}
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- 右侧边栏：KPI -->
+        <div id="kpi-sidebar" class="sidebar sidebar-right">
+            <h2 class="sidebar-title">KPI</h2>
+            <!-- KPI项目将在此动态插入 -->
+            <div id="kpi-list">
+                <!-- KPI 列表将通过 JavaScript 动态填充 -->
+            </div>
+        </div>
+
+        <!-- 主内容区域：图表 -->
+        <div class="main-content">
+            <h2 class="chart-title">
+                <span id="current-kpi">Please select a KPI</span>
+            </h2>
+            <div id="chart-container" class="chart-container">
+                <!-- 图表将在这里动态加载 -->
+                <div id="main-chart" style="height: 100%; width: 100%;"></div>
+                <div id="chart-info-box" class="info-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // 全局变量存储图表数据
+        const chartData = JSON.parse('{{ chart_data | tojson | safe }}');
+        let currentChart = null;
+        
+        // 【新增】计算tester的最高警报级别
+        function getHighestAlertLevelForTester(testerName) {
+            const testerData = chartData[testerName];
+            let highestLevel = 'normal'; // 默认正常
+            
+            for (let kpiName in testerData) {
+                const kpiAlertLevel = testerData[kpiName].alert_level;
+                
+                if (kpiAlertLevel === 'red') {
+                    return 'red'; // 红色警报优先级最高
+                } else if (kpiAlertLevel === 'yellow' && highestLevel !== 'red') {
+                    highestLevel = 'yellow';
+                }
+            }
+            
+            return highestLevel;
+        }
+
+        // 【修改】更新tester按钮的样式
+        function updateTesterButtonStyle(testerName) {
+            const testerButtons = document.querySelectorAll('#tester-sidebar .filter-item');
+            testerButtons.forEach(button => {
+                if (button.textContent.trim() === testerName) {
+                    // 移除所有警报相关的类
+                    button.classList.remove('alert-red', 'alert-yellow');
+                    
+                    // 根据最高警报级别添加相应的类
+                    const alertLevel = getHighestAlertLevelForTester(testerName);
+                    if (alertLevel === 'red') {
+                        button.classList.add('alert-red');
+                    } else if (alertLevel === 'yellow') {
+                        button.classList.add('alert-yellow');
+                    }
+                }
+            });
+        }
+        
+        // 选择测试员函数
+        function selectTester(testerName) {
+            // 更新选中状态
+            document.querySelectorAll('#tester-sidebar .filter-item').forEach(el => {
+                el.classList.remove('selected');
+            });
+            event.target.classList.add('selected');
+            
+            // 显示对应测试员的KPI
+            showKpiList(testerName);
+        }
+        
+        // 显示KPI列表
+        function showKpiList(testerName) {
+            const kpiListDiv = document.getElementById('kpi-list');
+            const testerData = chartData[testerName];
+            
+            // 清空现有KPI列表
+            kpiListDiv.innerHTML = '';
+            
+            // 【新增】更新tester按钮样式
+            updateTesterButtonStyle(testerName);
+            
+            // 为每个KPI创建列表项
+            for (let kpiName in testerData) {
+                const kpiItem = document.createElement('div');
+                kpiItem.className = 'filter-item';
+                kpiItem.textContent = kpiName;
+                
+                // 根据警报级别设置样式
+                if (testerData[kpiName].alert_level === 'red') {
+                    kpiItem.classList.add('alert-red');
+                } else if (testerData[kpiName].alert_level === 'yellow') {
+                    kpiItem.classList.add('alert-yellow');
+                }
+                
+                kpiItem.onclick = function() {
+                    // 更新选中状态
+                    document.querySelectorAll('#kpi-list .filter-item').forEach(el => {
+                        el.classList.remove('selected');
+                    });
+                    this.classList.add('selected');
+                    
+                    // 显示图表
+                    showChart(testerName, kpiName);
+                };
+                
+                kpiListDiv.appendChild(kpiItem);
+            }
+        }
+        
+        // 显示图表
+        function showChart(testerName, kpiName) {
+            // 更新当前KPI标题
+            document.getElementById('current-kpi').textContent = `${testerName} - ${kpiName}`;
+            
+            // 获取图表容器
+            const chartDiv = document.getElementById('main-chart');
+            
+            // 销毁现有的图表实例
+            if (currentChart) {
+                currentChart.dispose();
+            }
+            
+            // 初始化ECharts实例
+            currentChart = echarts.init(chartDiv);
+            
+            // 获取图表配置
+            const chartConfig = chartData[testerName][kpiName].chart;
+            
+            // 设置图表选项
+            currentChart.setOption(chartConfig);
+            
+            // 更新信息框
+            updateInfoBox(testerName, kpiName);
+            
+            // 监听窗口大小变化，调整图表尺寸
+            window.addEventListener('resize', function() {
+                if (currentChart) {
+                    currentChart.resize();
+                }
+            });
+        }
+        
+        function updateInfoBox(testerName, kpiName) {
+            // 获取图表数据，提取相关信息
+            const chartInfo = chartData[testerName][kpiName];
+            const option = chartInfo.chart;
+            const series = option.series || [];
+            
+            // 尝试获取LSL和USL值
+            let lsl = null;
+            let usl = null;
+            
+            // 从标记线获取USL和LSL值
+            if (option.series && option.series.length > 0) {
+                const firstSeries = option.series[0];
+                if (firstSeries.markLine && firstSeries.markLine.data) {
+                    firstSeries.markLine.data.forEach(function(item) {
+                        if (item.name === "USL") {
+                            usl = item.yAxis !== undefined ? item.yAxis : (item.yCoord !== undefined ? item.yCoord : null);
+                        } else if (item.name === "LSL") {
+                            lsl = item.yAxis !== undefined ? item.yAxis : (item.yCoord !== undefined ? item.yCoord : null);
+                        }
+                    });
+                }
+            }
+            
+            // 为每条线获取Max-Min值 - 【修改】使用后端传来的数据而非重新计算
+            let infoContent = '';
+            
+            if (series.length > 0) {
+                series.forEach(function(serie, idx) {
+                    // 【修改】直接使用后端传递的maxMinusMin值
+                    let maxMinusMin = serie.maxMinusMin !== undefined ? serie.maxMinusMin : "N/A";
+                    
+                    // 添加文本框行
+                    infoContent += `
+                        <div style="margin-bottom: 5px;">
+                            <strong>${serie.name}</strong><br>
+                            Max-Min: ${maxMinusMin}<br>
+                            USL: ${usl !== null ? usl : 'N/A'}<br>
+                            LSL: ${lsl !== null ? lsl : 'N/A'}
+                        </div>
+                    `;
+                });
+            }
+            
+            // 更新信息框内容
+            const infoBox = document.getElementById('chart-info-box');
+            if (infoBox) {
+                infoBox.innerHTML = infoContent;
+            }
+        }
+        
+        // 初始化：如果只有一个测试员，自动选择它
+        const testerItems = document.querySelectorAll('#tester-sidebar .filter-item');
+        if (testerItems.length === 1) {
+            testerItems[0].click();
+        } else {
+            // 【新增】初始化时设置所有tester按钮的颜色
+            Object.keys(chartData).forEach(testerName => {
+                updateTesterButtonStyle(testerName);
+            });
+        }
+    </script>
+</body>
+</html>

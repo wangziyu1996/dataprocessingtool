@@ -1,0 +1,423 @@
+﻿Project,Tester,KPI,USL,LSL
+Loma,LuphoScan#1,LuphoScan 1-L1 Temperature(℃),,
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-PV <5μm,5,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-Slope error-1 <1,1,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-Slope error-2 <2,2,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-DIV-1 <0.06,0.06,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-DIV-2 <0.085,0.085,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-LF-10 <0.15,0.15,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-LF-CA <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-HF-10 <0.15,0.15,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S1-HF-CA <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L1 Temperature(℃)_1,,
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-PV <8μm,8,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-Slope error-1 <1.5,1.5,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-Slope error-2 <3,3,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-DIV -1 <0.26,0.26,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-DIV -2 <0.37,0.37,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-LF-10 <0.15,0.15,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-LF-20 <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-HF-10 <0.15,0.1,0
+Loma,LuphoScan#1,LuphoScan 1-L1 S2-HF-CA <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 Temperature(℃),,
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-PV <8μm,8,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-Slope error-1 <1.5,1.5,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-Slope error-2 <3,3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-LF-10 <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-LF-CA <0.5,0.5,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-HF-10 <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S1-HF-CA <0.5,0.5,0
+Loma,LuphoScan#1,LuphoScan 1-L2 Temperature(℃)_1,,
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-PV <7μm,7,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-Slope error-1 <2,2,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-Slope error-2 <4,4,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-DIV -1 <0.41,0.41,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-DIV -2 <0.58,0.58,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-LF-10 0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-LF-20 <0.4,0.4,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-HF-10 <0.3,0.3,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-HF-ca <0.4,0.4,0
+Loma,LuphoScan#2,LuphoScan 2-L1 Temperature(℃),,
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-PV <4μm,4,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-1 <1,1,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-2 <2,2,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-DIV-1 <0.06,0.06,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-DIV-2 <0.085,0.085,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-LF-10 <0.15,0.15,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-LF-CA <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-HF-10 <0.15,0.15,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S1-HF-CA <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L1 Temperature(℃)_1,,
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-PV <8μm,8,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-1 <1.5,1.5,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-2 <3,3,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-DIV -1 <0.26,0.26,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-DIV -2 <0.37,0.37,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-LF-10 <0.15,0.15,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-LF-20 <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-HF-10 <0.15,0.1,0
+Loma,LuphoScan#2,LuphoScan 2-L1 S2-HF-CA 0.3,0.1,0
+Loma,LuphoScan#2,LuphoScan 2-L2 Temperature(℃),,
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-PV <8μm,8,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-Slope error-1 <1.5,1.5,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-Slope error-2 <3,3,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-LF-10 <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-LF-CA <0.5,0.4,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-HF-10 <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S1-HF-CA <0.5,0.4,0
+Loma,LuphoScan#2,LuphoScan 2-L2 Temperature(℃)_1,,
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-PV <7μm,7,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-Slope error-1 <2,2,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-Slope error-2 <4,4,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-DIV -1 <0.41,0.41,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-DIV -2 <0.58,0.58,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-LF-10 <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-LF-CA <0.4,0.4,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-HF-10 <0.3,0.3,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-HF-CA <0.4,0.4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S1 PV (µm) <4μm,4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S1 95% LF FullAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S1 95% LF SubAp OP (min) <0.15,0.15,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S1 95% HF FullAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S1 95% HF Sub Ap OP (min) <0.15,0.15,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S2 PV (µm) <8μm,8,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S2 95% LF FullAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S2 95% LF SubAp OP (min) <0.15,0.15,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S2 95% HF FullAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L1S2 95% HF Sub Ap OP (min) <0.15,0.15,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station Embedded PV <8μm,8,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station RP 95% LF FullAp OP (min) <0.5,0.5,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station RP 95% LF SubAp OP (min) <0.4,0.4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station RP 95% HF FullAp OP (min) <0.5,0.5,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station RP 95% HF SubAp OP (min) <0.4,0.4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S1 PV (µm) <8μm,8,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S1 95% LF FullAp OP (min) <0.5,0.5,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S1 95% LF SubAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S1 95% HF FullAp OP (min) <0.5,0.5,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S1 95% HF Sub Ap OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S2 PV (µm) <7μm,7,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S2 95% LF FullAp OP (min) <0.4,0.4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S2 95% LF SubAp OP (min) <0.3,0.3,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S2 95% HF FullAp OP (min) <0.4,0.4,0
+Loma,Zygo Auto Aspheric Station,Zygo Auto Aspheric Station L2S2 95% HF Sub Ap OP (min) <0.3,0.3,0
+Loma,IMHR1-1,IMHR1-1 EFL,14.588,-14.388
+Loma,IMHR1-1,IMHR1-1 2D MTF-T-0°,1,-0.93
+Loma,IMHR1-1,IMHR1-1 2D MTF-S-0°,1,-0.93
+Loma,IMHR1-1,IMHR1-1 2D MTF-T-(-15°),1,-0.93
+Loma,IMHR1-1,IMHR1-1 2D MTF-S-(-15°),1,-0.93
+Loma,IMHR1-1,IMHR1-1 2D MTF-T-15°,1,-0.93
+Loma,IMHR1-1,IMHR1-1 2D MTF-S-15°,1,-0.93
+Loma,IMHR1-2,IMHR1-2 EFL,14.588,-14.388
+Loma,IMHR1-2,IMHR1-2 2D MTF-T-0°,1,-0.93
+Loma,IMHR1-2,IMHR1-2 2D MTF-S-0°,1,-0.93
+Loma,IMHR1-2,IMHR1-2 2D MTF-T-(-15°),1,-0.93
+Loma,IMHR1-2,IMHR1-2 2D MTF-S-(-15°),1,-0.93
+Loma,IMHR1-2,IMHR1-2 2D MTF-T-15°,1,-0.93
+Loma,IMHR1-2,IMHR1-2 2D MTF-S-15°,1,-0.93
+Loma,WPA-200,WPA-200 99% of S2 𝜙10mm area retardance <2nm,2,0
+Loma,WPA-200,WPA-200 99% of S2 𝜙10mm to 𝜙15mm area retardance <4.5nm,4.5,0
+Loma,WPA-200,WPA-200 99% of S2 𝜙15mm to CA area retardance <7nm,7,0
+Loma,WPA-200,WPA-200 Max retardance of S2 CA area <8nm,8,0
+Loma,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) LF OP <0.33,0.33,0
+Loma,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) HF OP <0.45,0.45,0
+Loma,Hazegard(for film),Hazegard(for film) Haze <0.6,6,0
+Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 460nm [-0.97,-0.88]",-0.88,-0.97
+Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 530nm [-0.97,-0.89]",-0.89,-0.97
+Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 620nm [-0.95,-0.87]",-0.87,-0.95
+Loma,Lambda1050(for film),Lambda1050(for film) Single Tramsmission 43-46,46,43
+Loma,Haze Gard i,Haze Guard i Haze-AR < 0.5%,0.5,0
+Loma,Haze Gard i,Haze Guard i Haze-HM < 0.8%,0.8,0
+Loma,AxoScan,AxoScan Ellipticity 460nm 0.965-0.870,0.965,0.87
+Loma,AxoScan,AxoScan Ellipticity 530nm 0.990-0.899,0.99,0.899
+Loma,AxoScan,AxoScan Ellipticity 620nm 0.920-0.850,0.92,0.85
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-1 <1.5nm,1.5,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-2 <1.5nm,1.5,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-3 <1.5nm,1.5,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-4 <1.5nm,1.5,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-5 <1.5nm,1.5,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-1 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-2 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-3 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-4 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-5 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-1 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-2 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-3 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-4 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-5 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-1 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-2 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-3 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-4 <2nm,2,0
+Loma,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-5 <2nm,2,0
+Loma,Lambda1050-1,Lambda1050-1#@Loma Transmittance 380-780 45-55,54,46
+Loma,Lambda1050-1,Lambda1050-1#@Loma Transmittance 800-1000 70-100,85,75
+Loma,Polariscope,Polariscope Ellipticity 460nm(Zone1-Mean) 0.8-1,1,0.8
+Loma,Polariscope,Polariscope Ellipticity 520nm (Zone1-Mean) 0.8-1,1,0.8
+Loma,Polariscope,Polariscope Ellipticity 636nm (Zone1-Mean) 0.81-0.92,0.92,0.81
+Loma,Polariscope,Polariscope Ellipticity 460nm(Zone3-Lower) 0.7-1,1,0.7
+Loma,Polariscope,Polariscope Ellipticity 520nm (Zone3-Lower) 0.7-1,1,0.7
+Loma,Polariscope,Polariscope Ellipticity 636nm (Zone3-Lower) 0.72-1,1,0.72
+Loma,USPM,USPM Calibration block-0°-Reflectance（420-945nm）@HM ,5,4
+Loma,Cary7000,Cary7000-R_S_60° HM-60°-R(420-945nm),60,50
+Loma,Cary7000,Cary7000-R_P_60° HM-60°-R(420-945nm),60,50
+Loma,Cary7000,Cary7000 HM-0°-Transmittance(420-945nm),60,50
+Loma,OMM/CMM,CMM+OMM FAI201,0.005,0
+Loma,OMM/CMM,CMM+OMM FAI202,0.015,0
+Loma,OMM/CMM,CMM+OMM FAI300.1,0.58,0.42
+Loma,OMM/CMM,CMM+OMM FAI300.2,0.58,0.42
+Loma,OMM/CMM,CMM+OMM FAI300.3,0.58,0.42
+Loma,OMM/CMM,CMM+OMM FAI300.4,0.58,0.42
+Loma,OMM/CMM,CMM+OMM FAI301.1,0.1,0
+Loma,OMM/CMM,CMM+OMM FAI301.2,0.1,0
+Loma,OMM/CMM,CMM+OMM FAI301.3,0.1,0
+Loma,OMM/CMM,CMM+OMM FAI301.4,0.1,0
+Loma,OMM/CMM,CMM+OMM FAI405,8.256,8.226
+Loma,Opticentric,OCL1S1,15,-15
+Loma,Opticentric,OCL1S2,15,-15
+Loma,Opticentric,OCL1tilt,15,-15
+Loma,Opticentric,OCL2S1,15,-15
+Loma,Opticentric,OCL2S2,15,-15
+Loma,Opticentric,OCL2tilt,15,-15
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-PV <10μm,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Relative slope error-1 <0.13,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-1 <1.07,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-2 <1.92,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-3 <3.45,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-1 <0.1,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-2 <0.19,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-3 <0.29,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-CENTER <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-sky-L <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-ground-L <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-nasal-L <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-temporal-L <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-sky-R <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-ground-R <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-nasal-R <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-DIV-temporal-R <0.048,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-LF-34.8 <0.2,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-LF-CA <0.3,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-HF-34.8 <0.2,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-HF-CA <0.3,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-PV <10μm,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-Relative slope error-1 <0.22,0.22,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-1 <1.8,1.8,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-2 <3.21,3.21,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-3 <5.77,5.77,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-1 <0.17,0.17,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-2 <0.34,0.34,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-3 <0.51,0.51,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-center <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-sky-L <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-ground-L <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-nasal-L <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-temporal-L <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-sky-R <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-ground-R <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-nasal-R <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-DIV-temporal-R <0.085,,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-LF-33.2 <0.2,0.2,
+Hummingbird,LuphoScan#2,LuphoScan 2-L1 S2-LF-CA <0.3,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-PV <10μm,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-Relative slope error-1 <0.22,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-Slope error-1 <1.8,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-Slope error-2 <3.22,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-Slope error-3 <5.8,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-1 <0.18,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-2 <0.36,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-3 <0.54,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-center <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-sky-L <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-ground-L <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-nasal-L <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-temporal-L <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-sky-R <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-ground-R <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-nasal-R <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-DIV-temporal-R <0.091,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-LF-29.2 <0.2,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S1-LF-CA <0.3,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-PV <10μm,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-Relative slope error-1 <0.13,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-Slope error-1 <1.07,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-Slope error-2 <1.92,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-Slope error-3 <3.54,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-1 <0.1,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-2 <0.19,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-3 <0.29,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-center <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-sky-L <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-ground-L <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-nasal-L <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-temporal-L <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-sky-R <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-ground-R <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-nasal-R <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-DIV-temporal-R <0.048,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-LF-27.4 <0.2,,
+Hummingbird,LuphoScan#2,LUPHOScan-2-L2 S2-LF-CA <0.3,,
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-PV <10μm,10,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-Slope error-1 <1.07,1.07,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-Slope error-2 <1.92,1.92,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-Slope error-3 <3.45,3.45,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-Relative slope error-1 <0.13,0.13,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-1 <0.1,0.1,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-2 <0.19,0.19,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-3 <0.29,0.29,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-CENTER <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-sky-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-ground-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-nasal-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-temporal-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-sky-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-ground-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-nasal-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-DIV-temporal-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-HF-34.8 <0.2,0.15,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-HF-CA <0.3,0.3,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-LF-34.8 <0.2,0.2,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S1-LF-CA <0.3,0.3,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-PV <10μm,8,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-Slope error-1 <1.8,1.8,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-Slope error-2 <3.21,3.21,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-Slope error-3 <5.77,5.77,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-Relative slope error-1 <0.22,0.22,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-1 <0.17,0.17,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-2 <0.34,0.34,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-3 <0.51,0.51,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-center <0.085,0.085,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-sky-L <0.085,0.085,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-ground-L <0.085,0.085,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-nasal-L <0.085,0.085,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-temporal-L <0.085,0.085,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-sky-R <0.085,0.045,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-ground-R <0.085,0.045,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-nasal-R <0.085,0.045,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-DIV-temporal-R <0.085,0.045,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-LF-33.2 <0.2,0.2,0
+Hummingbird,LuphoScan#3,LuphoScan 3-L1 S2-LF-CA <0.3,0.3,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-PV <10μm,10,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-Slope error-1 <1.8,1.8,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-Slope error-2 <3.22,3.22,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-Slope error-3 <5.8,5.8,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-Relative slope error-1 <0.22,0.13,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-1 <0.18,0.18,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-2 <0.36,0.36,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-3 <0.54,0.54,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-center <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-sky-L <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-ground-L <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-nasal-L <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-temporal-L <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-sky-R <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-ground-R <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-nasal-R <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-DIV-temporal-R <0.091,0.091,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-LF-29.2 <0.2,0.2,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S1-LF-CA <0.3,0.3,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-PV <10μm,10,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-Slope error-1 <1.07,1.07,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-Slope error-2 <1.92,1.92,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-Slope error-3 <3.54,3.54,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-Relative slope error-1 <0.13,0.13,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-1 <0.1,0.1,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-2 <0.19,0.19,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-3 <0.29,0.29,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-center <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-sky-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-ground-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-nasal-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-temporal-L <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-sky-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-ground-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-nasal-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-DIV-temporal-R <0.048,0.048,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-LF-27.4 <0.2,0.2,0
+Hummingbird,LuphoScan#3,LUPHOScan-3-L2 S2-LF-CA <0.3,0.3,0
+Hummingbird,L2S2 CGH,L2S2 CGH Embedded PV <10μm,10,0
+Hummingbird,L2S2 CGH,L2S2 CGH RP 95% LF FullAp OP (min) <0.5,0.5,0
+Hummingbird,L2S2 CGH,L2S2 CGH RP 95% LF SubAp OP (min) <0.4,0.4,0
+Hummingbird,L2S2 CGH,L2S2 CGH RP 95% HF FullAp OP (min) <0.5,0.5,0
+Hummingbird,L2S2 CGH,L2S2 CGH RP 95% HF SubAp OP (min) <0.4,0.4,0
+Hummingbird,WPA-200,WPA-200-L1 Mean_phi22mm <1.25nm,1.25,0
+Hummingbird,WPA-200,WPA-200-L1 99PE_CA <10nm,10,0
+Hummingbird,WPA-200,WPA-200-L1 Percentage of Area < 3.5nm 95-100,100,0
+Hummingbird,WPA-200,WPA-200-L2 Mean_phi22mm <1.25nm,1.25,0
+Hummingbird,WPA-200,WPA-200-L2 99PE_CA <10nm,10,0
+Hummingbird,WPA-200,WPA-200-L2 Percentage of Area < 3.5nm 95-100,100,95
+Hummingbird,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) LF OP of glass <0.4,0.4,0
+Hummingbird,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) HF OP of glass <0.4,0.4,0
+Hummingbird,Haze Gard i,Haze Guard i Haze-AR < 0.84%,0.84,0
+Hummingbird,Haze Gard i,Haze Guard i Haze-HM < 0.84%,0.84,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-1 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-2 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-3 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-4 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S1-Surface roughness Sq-5 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-1 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-2 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-3 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-4 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L1 S2 Surface roughness Sq-5 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-1 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-2 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-3 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-4 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S1-Surface roughness Sq-5 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-1 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-2 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-3 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-4 <2nm,2,0
+Hummingbird,Zygo Newview 9000,Zygo Newview 9000-L2 S2 Surface roughness Sq-5 <2nm,2,0
+Hummingbird,Cary7000,Cary7000-R_S_60° HM-60°-R(420-945nm) ,52,47
+Hummingbird,Cary7000,Cary7000-R_P_60° HM-60°-R(420-945nm) ,52,47
+Hummingbird,Cary7000,Cary7000-T_0° HM-0°-Transmittance(420-945nm) ,60,50
+Hummingbird,USPM,USPM Calibration block-0°-Reflectance(420-945nm) ,5,4
+Hummingbird,Lambda1050-1,Lambda1050-1@Hummingbird Transmittance 380-780 88-93,95,85
+Hummingbird,Lambda1050-1,Lambda1050-1@Hummingbird Transmittance 700-1000 88-93,95,85
+Hummingbird,AxoScan,AxoScan Ellipticity 460nm 0.88-0.99,0.99,0.88
+Hummingbird,AxoScan,AxoScan Ellipticity 540nm 0.90-0.97,0.97,0.9
+Hummingbird,AxoScan,AxoScan Ellipticity 640nm 0.80-0.90,0.9,0.8
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity BLUE(Zone1-Mean) 0.94-1,1,0.94
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity GREEN (Zone1-Mean) 0.89-0.95,0.95,0.89
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity RED (Zone1-Mean) 0.85-0.90,0.9,0.85
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity BLUE(Zone3-Lower) 0.92-1,1,0.91
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity GREEN (Zone3-Lower) 0.87-1,0.98,0.86
+Hummingbird,Polariscope-Lens2-R,Polariscope-Lens2-R Ellipticity RED (Zone3-Lower) 0.81-0.91,0.93,0.82
+Hummingbird,luphoswap,luphoswap4#- Bare L1 wedge <2,2,0
+Hummingbird,luphoswap,luphoswap4#- Bare L1 wedge-x x: 0 ± 2,2,-2
+Hummingbird,luphoswap,luphoswap4#- Bare L1 wedge-y y: 0 ± 2,2,-2
+Hummingbird,luphoswap,luphoswap4#- Bare L1 de-center <25,25,0.42
+Hummingbird,luphoswap,luphoswap4#- Bare L1 de-center-x x: 0 ± 25,25,-25
+Hummingbird,luphoswap,luphoswap4#- Bare L1 de-center-y y: 0 ± 25,25,-25
+Hummingbird,luphoswap,luphoswap4# -Bare L2 wedge <2,2,0
+Hummingbird,luphoswap,luphoswap4# -Bare L2 wedge-x x: 0 ± 2,2,-2
+Hummingbird,luphoswap,luphoswap4# -Bare L2 wedge-y y: 0 ± 2,2,-2
+Hummingbird,luphoswap,luphoswap4# -Bare L2 de-center <25,25,0.42
+Hummingbird,luphoswap,luphoswap4# -Bare L2 de-center-x x: 0 ± 25,25,-25
+Hummingbird,luphoswap,luphoswap4# -Bare L2 de-center-y y: 0 ± 25,25,-25
+Hummingbird,CMM+OMM,CMM+OMM FAI401,0.02,0
+Hummingbird,CMM+OMM,CMM+OMM CPK403,0.001,0
+Hummingbird,CMM+OMM,CMM+OMM CPK206.01 Diameter,0.55,0.45
+Hummingbird,CMM+OMM,CMM+OMM CPK206.02 Diameter,0.55,0.45
+Hummingbird,CMM+OMM,CMM+OMM CPK206.03 Diameter,0.55,0.45
+Hummingbird,CMM+OMM,CMM+OMM CPK207.02 Diameter,1.05,0.95
+Hummingbird,CMM+OMM,CMM+OMM CPK206.01 Location,0.05,0
+Hummingbird,CMM+OMM,CMM+OMM CPK206.02 Location,0.05,0
+Hummingbird,CMM+OMM,CMM+OMM CPK206.03 Location,0.05,0
+Hummingbird,CMM+OMM,CMM+OMM CPK207.02 Location,0.05,0
+Hummingbird,CMM+OMM,CMM+OMM CPK305 Thickness,3.599,3.569
+Hummingbird,IMHR,IMHR EFL,14.588,-14.388
+Hummingbird,IMHR,IMHR 2D MTF-T-0°,1,-0.93
+Hummingbird,IMHR,IMHR 2D MTF-S-0°,1,-0.93
+Hummingbird,IMHR,IMHR 2D MTF-T-(-15°),1,-0.93
+Hummingbird,IMHR,IMHR 2D MTF-S-()-15°),1,-0.93
+Hummingbird,IMHR,IMHR 2D MTF-T-15°,1,-0.93
+Hummingbird,IMHR,IMHR 2D MTF-S-15°,1,-0.93
+Hummingbird,Opticentric,OCL1S1,15,-15
+Hummingbird,Opticentric,OCL1S2,15,-15
+Hummingbird,Opticentric,OCL1tilt,15,-15
+Hummingbird,Opticentric,OCL2S1,15,-15
+Hummingbird,Opticentric,OCL2S2,15,-15
+Hummingbird,Opticentric,OCL2tilt,15,-15
