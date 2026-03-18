@@ -28,14 +28,14 @@ class BannerWidget(QWidget):
 
         self.linkCardView.addCard(
             FluentIcon.PLAY,
-            self.tr("Get Started"),
+            self.tr("Read Me"),
             self.tr("Learn how to use this application to process your data."),
             QUICKSTART_URL
         )
         self.linkCardView.addCard(
             FluentIcon.GITHUB,
             self.tr("Code Repository"),
-            self.tr("View the source code of this application. (Need access)"),
+            self.tr("View the source code of this application."),
             REPO_URL
         )
         self.linkCardView.addCard(

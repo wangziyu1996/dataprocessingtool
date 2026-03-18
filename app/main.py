@@ -15,7 +15,7 @@ from view.main_window import MainWindow
 # enable dpi scale
 if cfg.get(cfg.dpiScale) == "Auto":
     QApplication.setHighDpiScaleFactorRoundingPolicy(
-        Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
+        Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)    
     QApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
 else:
     os.environ["QT_ENABLE_HIGHDPI_SCALING"] = "0"

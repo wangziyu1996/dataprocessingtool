@@ -19,9 +19,9 @@ class VisRoutineInspection:
 
     def datacleansing(self):
         # --- 数据清洗流程 ---
-        # 该流程将应用于 "All testers(expect OC&PST)","Weekly", "Daily", "OC-L1", "OC-L2" 等 sheet。
+        # 该流程将应用于 "All testers(expect OC&PST)",""All testers(expect OC)"","Weekly", "Daily", "OC-L1", "OC-L2" 等 sheet。
 
-        sheet_names_to_process = ["All testers(expect OC&PST)","Weekly", "Daily", "OC-L1", "OC-L2"]
+        sheet_names_to_process = ["All testers(expect OC&PST)","All testers(expect OC)","Weekly", "Daily", "OC-L1", "OC-L2"]
         processed_dfs = {}
 
         # 步骤 A: 循环处理所有目标 sheet
