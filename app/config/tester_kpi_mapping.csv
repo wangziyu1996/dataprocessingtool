@@ -1,34 +1,6 @@
 ﻿Project,Tester,KPI,USL,LSL
-Loma,LuphoScan#1,LuphoScan 1-L1 Temperature(℃),,
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-PV <5μm,5,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-Slope error-1 <1,1,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-Slope error-2 <2,2,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-DIV-1 <0.06,0.06,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-DIV-2 <0.085,0.085,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-LF-10 <0.15,0.15,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-LF-CA <0.3,0.3,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-HF-10 <0.15,0.15,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S1-HF-CA <0.3,0.3,0
-Loma,LuphoScan#1,LuphoScan 1-L1 Temperature(℃)_1,,
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-PV <8μm,8,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-Slope error-1 <1.5,1.5,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-Slope error-2 <3,3,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-DIV -1 <0.26,0.26,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-DIV -2 <0.37,0.37,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-LF-10 <0.15,0.15,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-LF-20 <0.3,0.3,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-HF-10 <0.15,0.1,0
-Loma,LuphoScan#1,LuphoScan 1-L1 S2-HF-CA <0.3,0.3,0
 Loma,LuphoScan#1,LuphoScan 1-L2 Temperature(℃),,
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-PV <8μm,8,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-Slope error-1 <1.5,1.5,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-Slope error-2 <3,3,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-LF-10 <0.3,0.3,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-LF-CA <0.5,0.5,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-HF-10 <0.3,0.3,0
-Loma,LuphoScan#1,LuphoScan 1-L2 S1-HF-CA <0.5,0.5,0
-Loma,LuphoScan#1,LuphoScan 1-L2 Temperature(℃)_1,,
-Loma,LuphoScan#1,LuphoScan 1-L2 S2-PV <7μm,7,0
+Loma,LuphoScan#1,LuphoScan 1-L2 S2-PV <6.5μm,6.5,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-Slope error-1 <2,2,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-Slope error-2 <4,4,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-DIV -1 <0.41,0.41,0
@@ -37,36 +9,8 @@ Loma,LuphoScan#1,LuphoScan 1-L2 S2-LF-10 0.3,0.3,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-LF-20 <0.4,0.4,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-HF-10 <0.3,0.3,0
 Loma,LuphoScan#1,LuphoScan 1-L2 S2-HF-ca <0.4,0.4,0
-Loma,LuphoScan#2,LuphoScan 2-L1 Temperature(℃),,
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-PV <4μm,4,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-1 <1,1,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-2 <2,2,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-DIV-1 <0.06,0.06,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-DIV-2 <0.085,0.085,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-LF-10 <0.15,0.15,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-LF-CA <0.3,0.3,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-HF-10 <0.15,0.15,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S1-HF-CA <0.3,0.3,0
-Loma,LuphoScan#2,LuphoScan 2-L1 Temperature(℃)_1,,
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-PV <8μm,8,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-1 <1.5,1.5,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-Slope error-2 <3,3,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-DIV -1 <0.26,0.26,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-DIV -2 <0.37,0.37,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-LF-10 <0.15,0.15,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-LF-20 <0.3,0.3,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-HF-10 <0.15,0.1,0
-Loma,LuphoScan#2,LuphoScan 2-L1 S2-HF-CA 0.3,0.1,0
 Loma,LuphoScan#2,LuphoScan 2-L2 Temperature(℃),,
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-PV <8μm,8,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-Slope error-1 <1.5,1.5,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-Slope error-2 <3,3,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-LF-10 <0.3,0.3,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-LF-CA <0.5,0.4,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-HF-10 <0.3,0.3,0
-Loma,LuphoScan#2,LuphoScan 2-L2 S1-HF-CA <0.5,0.4,0
-Loma,LuphoScan#2,LuphoScan 2-L2 Temperature(℃)_1,,
-Loma,LuphoScan#2,LuphoScan 2-L2 S2-PV <7μm,7,0
+Loma,LuphoScan#2,LuphoScan 2-L2 S2-PV <6.5μm,6.5,0
 Loma,LuphoScan#2,LuphoScan 2-L2 S2-Slope error-1 <2,2,0
 Loma,LuphoScan#2,LuphoScan 2-L2 S2-Slope error-2 <4,4,0
 Loma,LuphoScan#2,LuphoScan 2-L2 S2-DIV -1 <0.41,0.41,0
@@ -137,7 +81,7 @@ Loma,WPA-200,WPA-200 99% of S2 𝜙15mm to CA area retardance <7nm,7,0
 Loma,WPA-200,WPA-200 Max retardance of S2 CA area <8nm,8,0
 Loma,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) LF OP <0.33,0.33,0
 Loma,Zygo Verifire HD linear (for film),Zygo Verifire HD linear (for film) HF OP <0.45,0.45,0
-Loma,Hazegard(for film),Hazegard(for film) Haze <0.6,6,0
+Loma,Hazegard(for film),Hazegard(for film) Haze <0.6,0.6,0
 Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 460nm [-0.97,-0.88]",-0.88,-0.97
 Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 530nm [-0.97,-0.89]",-0.89,-0.97
 Loma,Axoscan(for film),"Axoscan(for film) Ellipticity 620nm [-0.95,-0.87]",-0.87,-0.95
@@ -176,8 +120,8 @@ Loma,Polariscope,Polariscope Ellipticity 460nm(Zone3-Lower) 0.7-1,1,0.7
 Loma,Polariscope,Polariscope Ellipticity 520nm (Zone3-Lower) 0.7-1,1,0.7
 Loma,Polariscope,Polariscope Ellipticity 636nm (Zone3-Lower) 0.72-1,1,0.72
 Loma,USPM,USPM Calibration block-0°-Reflectance（420-945nm）@HM ,5,4
-Loma,Cary7000,Cary7000-R_S_60° HM-60°-R(420-945nm),60,50
-Loma,Cary7000,Cary7000-R_P_60° HM-60°-R(420-945nm),60,50
+Loma,Cary7000,Cary7000-R_S_60° HM-60°-R(420-945nm),55,50
+Loma,Cary7000,Cary7000-R_P_60° HM-60°-R(420-945nm),22,18
 Loma,Cary7000,Cary7000 HM-0°-Transmittance(420-945nm),60,50
 Loma,OMM/CMM,CMM+OMM FAI201,0.005,0
 Loma,OMM/CMM,CMM+OMM FAI202,0.015,0
@@ -192,10 +136,10 @@ Loma,OMM/CMM,CMM+OMM FAI301.4,0.1,0
 Loma,OMM/CMM,CMM+OMM FAI405,8.256,8.226
 Loma,Opticentric,OCL1S1,15,-15
 Loma,Opticentric,OCL1S2,15,-15
-Loma,Opticentric,OCL1tilt,15,-15
+Loma,Opticentric,OCL1tilt,3,-3
 Loma,Opticentric,OCL2S1,15,-15
 Loma,Opticentric,OCL2S2,15,-15
-Loma,Opticentric,OCL2tilt,15,-15
+Loma,Opticentric,OCL2tilt,3,-3
 Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-PV <10μm,,
 Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Relative slope error-1 <0.13,,
 Hummingbird,LuphoScan#2,LuphoScan 2-L1 S1-Slope error-1 <1.07,,

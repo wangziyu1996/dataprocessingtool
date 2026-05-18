@@ -334,9 +334,9 @@ class VisRoutineInspection:
                                 if spec_range > 0:
                                     data_range = series_data.max() - series_data.min()
                                     ratio = data_range / spec_range
-                                    if ratio >= 0.2:
+                                    if ratio > 0.2:
                                         alert_level_per_series.append('red')
-                                    elif ratio >= 0.1:
+                                    elif ratio > 0.1:
                                         alert_level_per_series.append('yellow')
                                     else:
                                         alert_level_per_series.append('normal')
