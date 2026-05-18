@@ -19,9 +19,8 @@ class VisRoutineInspection:
 
     def datacleansing(self):
         # --- 数据清洗流程 ---
-        # 该流程将应用于 "All testers(expect OC&PST)",""All testers(expect OC)"","Weekly", "Daily", "OC-L1", "OC-L2" 等 sheet。
 
-        sheet_names_to_process = ["All testers(expect OC&PST)","All testers(expect OC)","Weekly", "Daily", "OC-L1", "OC-L2"]
+        sheet_names_to_process = ["All testers(expect OC)","Loma L1-2#","Loma L2-1#","CGH"]
         processed_dfs = {}
 
         # 步骤 A: 循环处理所有目标 sheet
@@ -33,7 +32,7 @@ class VisRoutineInspection:
                 continue
 
             # --- [NEW] 根据 sheet 名称路由到不同的清洗方法 ---
-            if sheet_name in ["OC-L1", "OC-L2"]:
+            if sheet_name in ["Loma L1-2#", "Loma L2-1#"]:
                 # 对 OC sheet 执行特殊的清洗流程
                 df = self._clean_oc_df(df)
                 if df.empty:
@@ -251,7 +250,7 @@ class VisRoutineInspection:
                 continue
 
             # --- 特殊处理 OC-L1 和 OC-L2 ---
-            if sheet_name in ['OC-L1', 'OC-L2']:
+            if sheet_name in ['Loma L1-2#', 'Loma L2-1#']:
                 # 定义需要生成的图表配置
                 oc_configs = [
                     {'kpi': 'OCL1S1', 'title_suffix': 'S1 Decenter(μm)', 'columns': ['S1 Decenter(μm)-x', 'S1 Decenter(μm)-y', 'S1 Decenter(μm)-abs']},
@@ -264,9 +263,9 @@ class VisRoutineInspection:
                 
                 # 根据当前 sheet_name 过滤相关配置
                 relevant_configs = []
-                if sheet_name == 'OC-L1':
+                if sheet_name == 'Loma L1-2#':
                     relevant_configs = oc_configs[:3]  # 前三个配置对应 OC-L1
-                elif sheet_name == 'OC-L2':
+                elif sheet_name == 'Loma L2-1#':
                     relevant_configs = oc_configs[3:]  # 后三个配置对应 OC-L2
                 
                 for config in relevant_configs:
