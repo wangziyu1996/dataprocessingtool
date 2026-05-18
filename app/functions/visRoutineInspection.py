@@ -164,23 +164,23 @@ class VisRoutineInspection:
             # 1. 删除表格的1-16行
             df = df.drop(df.index[0:16]).reset_index(drop=True)
 
-            # 2. 删除B-Z, AG-AM, AQ列
+            # 2. 删除B-AA, AH-AN, AR列
             # 获取列索引
             cols_to_drop = []
             
-            # B-Z (index 1 to 25)
-            for i in range(1, 26):
+            # B-AA (index 1 to 26)
+            for i in range(1, 27):
                 if i < len(df.columns):
                     cols_to_drop.append(df.columns[i])
                     
-            # AG-AM (index 32 to 38) 
-            for i in range(32, 39):
+            # AH-AN (index 33 to 39) 
+            for i in range(33, 40):
                 if i < len(df.columns):
                     cols_to_drop.append(df.columns[i])
                     
-            # AQ (index 42)
-            if 42 < len(df.columns):
-                cols_to_drop.append(df.columns[42])
+            # AR (index 43)
+            if 43 < len(df.columns):
+                cols_to_drop.append(df.columns[43])
                 
             df = df.drop(columns=cols_to_drop)
             
@@ -533,10 +533,33 @@ class VisRoutineInspection:
                         if spec_range > 0:
                             data_range = kpi_series.max() - kpi_series.min()
                             ratio = data_range / spec_range
-                            if ratio >= 0.2:
+                            # --- [FIX] 强制转换为5位小数，避免浮点数精度问题 ---
+                            data_range_rounded = round(data_range, 5)
+                            ratio_rounded = round(ratio, 5)
+                            ratio = ratio_rounded  # 使用四舍五入后的值进行判断
+                            
+                            # --- [DEBUG] 添加调试打印，特别针对目标KPI ---
+                            if kpi_name == "CGH-Loma L1S1 LFOP_99th_RCA_CGH (arcmin)":
+                                print(f"DEBUG: KPI '{kpi_name}' 调试信息:")
+                                print(f"  USL: {usl}, LSL: {lsl}")
+                                print(f"  Spec Range: {spec_range}")
+                                print(f"  Data Min: {kpi_series.min()}, Data Max: {kpi_series.max()}")
+                                print(f"  Data Range: {data_range_rounded}")  # 使用四舍五入后的值显示
+                                print(f"  Ratio: {ratio_rounded}")  # 使用四舍五入后的值显示
+                                print(f"  当前判定: ratio > 0.2 -> red, ratio > 0.1 -> yellow, ratio <= 0.1 -> normal")
+                            
+                            if ratio > 0.2:
                                 alert_level = 'red'
-                            elif ratio >= 0.1:
+                                if kpi_name == "CGH-Loma L1S1 LFOP_99th_RCA_CGH (arcmin)":
+                                    print(f"  DEBUG: 判定为 RED (ratio={ratio} > 0.2)")
+                            elif ratio > 0.1:
                                 alert_level = 'yellow'
+                                if kpi_name == "CGH-Loma L1S1 LFOP_99th_RCA_CGH (arcmin)":
+                                    print(f"  DEBUG: 判定为 YELLOW (ratio={ratio} > 0.1)")
+                            else:
+                                alert_level = 'normal'
+                                if kpi_name == "CGH-Loma L1S1 LFOP_99th_RCA_CGH (arcmin)":
+                                    print(f"  DEBUG: 判定为 NORMAL (ratio={ratio} <= 0.1)")
 
                     # --- 步骤 6: 创建 Pyecharts 折线图 ---
                     # [NEW] 计算Max-Min值 - 【修复】正确处理数据
